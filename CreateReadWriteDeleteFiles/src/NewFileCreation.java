@@ -24,7 +24,7 @@ public class NewFileCreation {
 //        sc.close();
 
 //      Deleting a file:-
-//        File myFile=new File("newFileCreation.txt");
+//        File myFile=new File("newFileCreation.txt");CustomException
 //        if(myFile.delete())
 //            System.out.println("The file newFileCreation.txt is been deleted successfully");
 //        else
