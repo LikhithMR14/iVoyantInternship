@@ -7,13 +7,13 @@ import java.util.Scanner;
 public class NewFileCreation {
     public static void main(String[] args) throws IOException {
 //      Creating a file:-
-//        File newFile=new File("newFileCreation.txt");
+//        File newFile=new File("CreateReadWriteDeleteFiles/newFileCreation.txt");
 //        newFile.createNewFile();
 
 //      Writing in the file:-
-//        FileWriter fileWriter=new FileWriter("newFileCreation.txt");
-//        fileWriter.write("This is my first time using FileWriter\nHello! I am Likhith Siddharth M R.");
-//        fileWriter.close();
+        FileWriter fileWriter=new FileWriter("CreateReadWriteDeleteFiles/newFileCreation.txt");
+        fileWriter.write("This is my first time using FileWriter\nHello! I am Likhith Siddharth M R.");
+        fileWriter.close();
 
 //      Reading from the file:-
 //        File myFile=new File("newFileCreation.txt");
@@ -24,7 +24,7 @@ public class NewFileCreation {
 //        sc.close();
 
 //      Deleting a file:-
-//        File myFile=new File("newFileCreation.txt");CustomException
+//        File myFile=new File("newFileCreation.txt");
 //        if(myFile.delete())
 //            System.out.println("The file newFileCreation.txt is been deleted successfully");
 //        else

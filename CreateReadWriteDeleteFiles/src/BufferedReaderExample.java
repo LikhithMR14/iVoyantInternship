@@ -5,7 +5,7 @@ import java.io.IOException;
 public class BufferedReaderExample {
     public static void main(String[] args) {
         int count=0;
-        try (BufferedReader reader = new BufferedReader(new FileReader("example.txt"))) {
+        try (BufferedReader reader = new BufferedReader(new FileReader("CreateReadWriteDeleteFiles\\example.txt"))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 System.out.println(line);
