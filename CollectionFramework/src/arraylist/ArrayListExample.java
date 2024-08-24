@@ -66,9 +66,14 @@ public class ArrayListExample {
 
         // 13. toArray()
         Object[] array = list.toArray();
+        String[] arr=list.toArray(new String[0]);
         System.out.println("Array representation of list:");
         for (Object obj : array) {
             System.out.println(obj);
+        }
+
+        for(String str:arr) {
+            System.out.println(str);
         }
 
         // 14. subList(int fromIndex, int toIndex)
